@@ -1,7 +1,9 @@
 class FizzBuzz {
   play(number) {
     if (number % 3 === 0) {
-      return true;
+      return "fizz";
+    } else if (number % 5 === 0) {
+      return "buzz";
     }
   }
 }
