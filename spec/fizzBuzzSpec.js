@@ -1,5 +1,6 @@
 describe("fizzBuzz", () => {
   let fizzBuzz;
+
   beforeEach(function () {
     fizzBuzz = new FizzBuzz();
   });
