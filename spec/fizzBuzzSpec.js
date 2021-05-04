@@ -24,19 +24,19 @@ describe("fizzBuzz", () => {
   });
 
   describe("multiples of 15", () => {
-    it("returns fizz for 15", () => {
+    it("returns fizzbuzz for 15", () => {
       expect(fizzBuzz.play(15)).toEqual("fizzbuzz");
     });
-    it("returns fizz for 30", () => {
+    it("returns fizzbuzz for 30", () => {
       expect(fizzBuzz.play(30)).toEqual("fizzbuzz");
     });
   });
 
   describe("not a multiple of 3 or 5", () => {
-    it("returns the integer", () => {
+    it("returns the integer for 7", () => {
       expect(fizzBuzz.play(7)).toEqual(7);
     });
-    it("returns fizz for 30", () => {
+    it("returns the integer for 19", () => {
       expect(fizzBuzz.play(19)).toEqual(19);
     });
   });
